@@ -6355,6 +6355,12 @@ html[dir=rtl] .tns-visually-hidden {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
 
+.after\:bg-green-600::after{
+  content: var(--tw-content) !important;
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity)) !important;
+}
+
 .after\:bg-gradient-to-l::after{
   content: var(--tw-content) !important;
   background-image: -webkit-gradient(linear, right top, left top, from(var(--tw-gradient-stops))) !important;
@@ -6566,6 +6572,11 @@ html[dir=rtl] .tns-visually-hidden {
 .hover\:text-white:hover{
   --tw-text-opacity: 1 !important;
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+}
+
+.hover\:text-green-600:hover{
+  --tw-text-opacity: 1 !important;
+  color: rgb(22 163 74 / var(--tw-text-opacity)) !important;
 }
 
 .hover\:shadow:hover{
