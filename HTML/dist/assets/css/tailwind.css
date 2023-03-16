@@ -4046,11 +4046,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   }
   #topnav .navigation-menu > li:hover > .menu-arrow{
     --tw-border-opacity: 1;
-    border-color: #16A34A;
+    border-color: rgb(79 70 229 / var(--tw-border-opacity));
   }
   .dark #topnav .navigation-menu > li:hover > .menu-arrow{
     --tw-border-opacity: 1;
-    border-color: #16A34A;
+    border-color: rgb(79 70 229 / var(--tw-border-opacity));
   }
   #topnav .navigation-menu > li:hover > a, #topnav .navigation-menu > li.active > a{
     --tw-text-opacity: 1 !important;
@@ -6372,7 +6372,7 @@ html[dir=rtl] .tns-visually-hidden {
 
 .after\:bg-gradient-to-l::after{
   content: var(--tw-content) !important;
-  background-image: -webkit-gradient(linear, right top, left top, from(var(--tw-gradient-stops))) !important;
+  background-image: --webkit-gradient(linear, right top, left top, from(var(--tw-gradient-stops))) !important;
   background-image: linear-gradient(to left, var(--tw-gradient-stops)) !important;
 }
 
@@ -6620,6 +6620,7 @@ html[dir=rtl] .tns-visually-hidden {
   -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
           box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
 }
+
 
 .hover\:shadow-gray-100:hover{
   --tw-shadow-color: #f3f4f6 !important;
