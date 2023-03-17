@@ -1039,6 +1039,9 @@ video {
 .bg-green-600\/5{
   background-color: rgb(22 163 74 / 0.05) !important;
 }
+.bg-indigo-600\/5{
+  background-color: rgb(79 70 229 / 0.05) !important;
+}
 .bg-orange-600{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(234 88 12 / var(--tw-bg-opacity)) !important;
@@ -1308,6 +1311,10 @@ video {
 .text-green-600{
   --tw-text-opacity: 1 !important;
   color: rgb(22 163 74 / var(--tw-text-opacity)) !important;
+}
+.text-indigo-600{
+  --tw-text-opacity: 1 !important;
+  color: rgb(79 70 229 / var(--tw-text-opacity)) !important;
 }
 .text-red-600{
   --tw-text-opacity: 1 !important;
