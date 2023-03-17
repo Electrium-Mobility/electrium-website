@@ -28,6 +28,21 @@
 
 
 window.addEventListener('load', fn, false)
+const chk = document.getElementById('chk');
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    changeTheme();
+    chk.checked = true;
+}
+const switcher = document.getElementById("theme-mode")
+function changeTheme(){
+    const htmlTag = document.getElementsByTagName("html")[0]
+    
+    if (htmlTag.className.includes("dark")) {
+        htmlTag.className = 'light'
+    } else {
+        htmlTag.className = 'dark'
+    }
+}
 
 //  window.onload = function loader() {
 function fn() {
@@ -299,6 +314,7 @@ try {
 /*********************/
 /* Dark & Light Mode */
 /*********************/
+
 try {
     function changeTheme(e){
         e.preventDefault()
