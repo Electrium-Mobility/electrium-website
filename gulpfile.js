@@ -241,7 +241,12 @@ gulp.task('html', function () {
 });
 
 // Default(Producation) Task
-gulp.task('default', gulp.series(gulp.parallel('clean:packageLock', 'clean:dist', 'copy:all', 'copy:libs', 'fileinclude', 'scss', 'icons', 'js', 'html'), gulp.parallel('browsersync', 'watch')));
+// gulp.task('default', gulp.series(gulp.parallel('clean:packageLock', 'clean:dist', 'copy:all', 'copy:libs', 'fileinclude', 'scss', 'icons', 'js', 'html'), gulp.parallel('browsersync', 'watch')));
+
+gulp.task('default', gulp.series(
+    gulp.parallel('clean:packageLock', 'clean:dist', 'copy:all', 'copy:libs', 'fileinclude', 'scss', 'icons', 'js', 'html'),
+    gulp.parallel('browsersync', 'watch')
+  ));
 
 // Build(Development) Task
 gulp.task('build', gulp.series('clean:packageLock', 'clean:dist', 'copy:all', 'copy:libs', 'fileinclude', 'scss', 'icons', 'js', 'html'));
