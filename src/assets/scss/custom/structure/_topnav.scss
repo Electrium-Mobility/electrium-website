@@ -292,7 +292,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 1024px) {
+@media screen and (max-width: 1400px) and (min-width: 1400px) {
   #topnav {
     .navigation-menu {
       > li {
@@ -306,7 +306,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1400px) {
   #topnav {
     .navigation-menu {
       @apply flex flex-wrap justify-center;
@@ -462,7 +462,7 @@
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1399px) {
   #topnav {
     @apply bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 min-h-[74px];
     .logo {
