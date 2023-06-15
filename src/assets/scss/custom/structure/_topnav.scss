@@ -275,7 +275,7 @@
 }
 
 .logo {
-  @apply font-bold text-[24px] ltr:mr-[15px] rtl:ml-[15px] pt-0 ltr:pr-[15px] rtl:pl-[15px] pb-0 tracking-[1px] leading-[68px];
+  @apply font-bold text-[24px] ltr:mr-[0px] rtl:ml-[0px] pt-0 ltr:pr-[px] rtl:pl-[15px] pb-0 tracking-[1px] leading-[68px];
 }
 
 @media (min-width: 1025px) {
@@ -292,7 +292,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 992px) {
+@media screen and (max-width: 1024px) and (min-width: 1024px) {
   #topnav {
     .navigation-menu {
       > li {
@@ -306,7 +306,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   #topnav {
     .navigation-menu {
       @apply flex flex-wrap justify-center;
@@ -462,7 +462,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1023px) {
   #topnav {
     @apply bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 min-h-[74px];
     .logo {
