@@ -915,6 +915,12 @@ video {
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
 }
+.flex-row{
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+}
 .items-start{
   -webkit-box-align: start !important;
       -ms-flex-align: start !important;
@@ -1176,6 +1182,10 @@ video {
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
 }
+.px-8{
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
 .py-0{
   padding-top: 0px !important;
   padding-bottom: 0px !important;
@@ -1239,6 +1249,9 @@ video {
 .pt-16{
   padding-top: 4rem !important;
 }
+.pt-8{
+  padding-top: 2rem !important;
+}
 .text-center{
   text-align: center !important;
 }
@@ -1259,6 +1272,10 @@ video {
 .text-4xl{
   font-size: 2.25rem !important;
   line-height: 2.5rem !important;
+}
+.text-6xl{
+  font-size: 3.75rem !important;
+  line-height: 1 !important;
 }
 .text-\[10px\]{
   font-size: 10px !important;
@@ -2113,12 +2130,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 :is([dir="ltr"] .logo){
-  margin-right: 15px;
-  padding-right: 15px;
+  margin-right: 0px;
+  padding-right: px;
 }
 
 :is([dir="rtl"] .logo){
-  margin-left: 15px;
+  margin-left: 0px;
   padding-left: 15px;
 }
 
@@ -2127,12 +2144,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
     width: 1120px !important;
   }
 }
-@media screen and (max-width: 1024px) and (min-width: 992px) {
+@media screen and (max-width: 1400px) and (min-width: 1400px) {
   #topnav .navigation-menu > li .submenu.megamenu{
     width: 936px !important;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1400px) {
   #topnav .navigation-menu{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2399,7 +2416,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
     padding-bottom: 25px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 1399px) {
   #topnav{
     min-height: 74px;
     --tw-bg-opacity: 1;
@@ -4190,6 +4207,11 @@ html[dir=rtl] .tns-visually-hidden {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity)) !important;
 }
 
+.hover\:bg-gray-600:hover{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity)) !important;
+}
+
 .hover\:bg-green-600:hover{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(22 163 74 / var(--tw-bg-opacity)) !important;
@@ -4623,8 +4645,8 @@ html[dir=rtl] .tns-visually-hidden {
   .md\:grid-cols-6{
     grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
   }
-  .md\:grid-cols-8{
-    grid-template-columns: repeat(8, minmax(0, 1fr)) !important;
+  .md\:grid-cols-9{
+    grid-template-columns: repeat(9, minmax(0, 1fr)) !important;
   }
   .md\:px-6{
     padding-left: 1.5rem !important;
