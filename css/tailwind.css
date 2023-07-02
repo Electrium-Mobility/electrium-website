@@ -1273,6 +1273,9 @@ video {
 .pt-16{
   padding-top: 4rem !important;
 }
+.pt-8{
+  padding-top: 2rem !important;
+}
 .text-center{
   text-align: center !important;
 }
