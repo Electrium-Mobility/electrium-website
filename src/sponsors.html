@@ -1,0 +1,92 @@
+@@include("partials/main.html")
+    <head>
+        @@include("partials/title-meta.html", {"title": "Become A Sponsor"})
+
+        <!-- Css -->
+        <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+        @@include("partials/head-css.html")
+    </head>
+    
+    @@include("partials/body.html")
+        
+        @@include("partials/navbar/nav-center.html")
+
+        <!-- ***************************************************************************************************************** -->
+        <!--                                                  CALL TO ACTION                                                   -->
+        <!-- ***************************************************************************************************************** -->
+
+        <section class="relative md:py-24 py-16  bg-gray-50 dark:bg-slate-800">
+            <div class="container mt-16">
+                <div class="grid grid-cols-1 text-center">
+                    <!-- <h6 class="text-green-600 text-sm font-bold uppercase mb-2"></h6> -->
+                    <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Sponsor Sustainable Innovation</h3>
+
+                    <p class="text-slate-400 max-w-xl mx-auto">Sponsors help bring our projects to life and promote sustainable innovation. <br> Support us in our journey towards eco-friendly transportation and contact us to find out more about becoming a sponsor!</p>
+                
+                    <div class="mt-6">
+                        <a href="contact.html" class="btn bg-green-600 hover:bg-green-700 border-green-600 hover:border-green-700 text-white rounded-md ltr:mr-2 rtl:ml-2 mt-2">Become a Sponsor</a>
+                    </div>
+                </div><!--end grid-->
+            </div><!--end container-->
+        </section>
+
+        <!-- ***************************************************************************************************************** -->
+        <!--                                                        SPONSORS                                                   -->
+        <!-- ***************************************************************************************************************** -->
+
+        <!-- Business Partner -->
+        <section class="py-6 border-t border-b border-gray-100 dark:border-gray-700">
+            <div class="container pt-8">
+
+                <div class="grid grid-cols-1 pb-8 text-center">
+                    <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Our Sponsors</h3>
+
+                    <p class="text-slate-400 max-w-xl mx-auto">Thank you to our amazing sponsors for supporting us and our mission!!</p>
+                </div><!--end grid-->
+
+                <div class="grid md:grid-cols-6 grid-cols-2 justify-center gap-[30px]">
+                    <div class="mx-auto py-4">
+                        <img src="assets/logos/favicon.png" class="h-6" alt="">
+                    </div>
+
+                    <div class="mx-auto py-4">
+                        <img src="assets/images/client/google.svg" class="h-6" alt="">
+                    </div>
+                    
+                    <div class="mx-auto py-4">
+                        <img src="assets/images/client/lenovo.svg" class="h-6" alt="">
+                    </div>
+                    
+                    <div class="mx-auto py-4">
+                        <img src="assets/images/client/paypal.svg" class="h-6" alt="">
+                    </div>
+                    
+                    <div class="mx-auto py-4">
+                        <img src="assets/images/client/shopify.svg" class="h-6" alt="">
+                    </div>
+                    
+                    <div class="mx-auto py-4">
+                        <img src="assets/images/client/spotify.svg" class="h-6" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        @@include("partials/footer/footer.html")
+
+        <!-- @@include("partials/cookies.html") -->
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 ltr:right-5 rtl:left-5 h-9 w-9 text-center bg-green-600 text-white leading-9"><i class="uil uil-arrow-up"></i></a>
+        <!-- Back to top -->
+
+        @@include("partials/switcher.html")
+
+        <!-- JAVASCRIPTS -->
+        <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
+        <script src="assets/libs/feather-icons/feather.min.js"></script>
+        @@include("partials/script-file.html")
+        <!-- JAVASCRIPTS -->
+    </body>
+</html>
