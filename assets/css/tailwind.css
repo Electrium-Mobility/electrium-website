@@ -817,6 +817,9 @@ video {
 .w-4{
   width: 1rem !important;
 }
+.w-60{
+  width: 15rem !important;
+}
 .w-7{
   width: 1.75rem !important;
 }
@@ -1388,6 +1391,10 @@ video {
   --tw-text-opacity: 1 !important;
   color: rgb(75 85 99 / var(--tw-text-opacity)) !important;
 }
+.text-green-200{
+  --tw-text-opacity: 1 !important;
+  color: rgb(187 247 208 / var(--tw-text-opacity)) !important;
+}
 .text-green-600{
   --tw-text-opacity: 1 !important;
   color: rgb(22 163 74 / var(--tw-text-opacity)) !important;
@@ -1426,10 +1433,6 @@ video {
 .text-yellow-500{
   --tw-text-opacity: 1 !important;
   color: rgb(234 179 8 / var(--tw-text-opacity)) !important;
-}
-.text-green-200{
-  --tw-text-opacity: 1 !important;
-  color: rgb(187 247 208 / var(--tw-text-opacity)) !important;
 }
 .underline{
   text-decoration-line: underline !important;
@@ -4275,11 +4278,6 @@ html[dir=rtl] .tns-visually-hidden {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
 
-.hover\:bg-blue-800:hover{
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(30 64 175 / var(--tw-bg-opacity)) !important;
-}
-
 .hover\:text-amber-600:hover{
   --tw-text-opacity: 1 !important;
   color: rgb(217 119 6 / var(--tw-text-opacity)) !important;
@@ -4293,6 +4291,11 @@ html[dir=rtl] .tns-visually-hidden {
 .hover\:text-gray-400:hover{
   --tw-text-opacity: 1 !important;
   color: rgb(156 163 175 / var(--tw-text-opacity)) !important;
+}
+
+.hover\:text-green-400:hover{
+  --tw-text-opacity: 1 !important;
+  color: rgb(74 222 128 / var(--tw-text-opacity)) !important;
 }
 
 .hover\:text-green-600:hover{
@@ -4313,16 +4316,6 @@ html[dir=rtl] .tns-visually-hidden {
 .hover\:text-white:hover{
   --tw-text-opacity: 1 !important;
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
-}
-
-.hover\:text-blue-800:hover{
-  --tw-text-opacity: 1 !important;
-  color: rgb(30 64 175 / var(--tw-text-opacity)) !important;
-}
-
-.hover\:text-green-400:hover{
-  --tw-text-opacity: 1 !important;
-  color: rgb(74 222 128 / var(--tw-text-opacity)) !important;
 }
 
 .focus\:shadow-none:focus{
@@ -4712,10 +4705,6 @@ html[dir=rtl] .tns-visually-hidden {
   .md\:py-24{
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
-  }
-  .md\:text-2xl{
-    font-size: 1.5rem !important;
-    line-height: 2rem !important;
   }
   .md\:text-3xl{
     font-size: 1.875rem !important;
